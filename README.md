@@ -10,4 +10,8 @@
 
 #### Connect me via thiennlse172858@gmail.com
 
+<<<<<<< HEAD
 #### Copyright &#169; 2023 luongthien
+=======
+#### Copyright &#169; 2023 luongthien
+>>>>>>> 1d4e332705c458613ec666f15b42e8224f702d4d
