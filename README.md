@@ -7,4 +7,4 @@
 
 #### Connect me via thiennlse172858@gmail.com
 
-#### Copyright &#169; 2023 luongthien 69
+#### Copyright &#169; 2023 luongthien
