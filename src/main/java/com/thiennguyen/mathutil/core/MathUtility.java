@@ -18,19 +18,34 @@ public class MathUtility {
 
     //ham tinh giai thua n!=1.2.3.....n
     //n < 0 n > 20 ko tinh 21!
+//    public static long getFactorial(int n) {
+//        long result = 1;
+//        if (n < 0 || n > 20) {
+//            throw new IllegalArgumentException("Invaid n. n must between 1...20");
+//        }
+//        if (n == 0 || n == 1) 
+//            return 1;
+//        
+//        for (int i = 2; i <= n; i++) 
+//            result *= i;
+//        
+//
+//        return result;
+//           //khi có màu đỏ thì phải kiểm tra 2 noi: do EX != Act
+//           //                   Expected sai
+//           //   hoặc            tính toán sai = code chính sai = bug
+//    }
+    
+    //Nâng cấp hàm tính giai thừa bằng hàm đệ quy
+    // đệ quy là gọi lại chính mình với 1 quy mô nhỏ hơn
     public static long getFactorial(int n) {
-        long result = 10;
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invaid n. n must between 1...20");
         }
         if (n == 0 || n == 1) 
             return 1;
         
-        for (int i = 2; i <= n; i++) 
-            result *= i;
-        
-
-        return result;
+        return n * getFactorial(n-1 );
            //khi có màu đỏ thì phải kiểm tra 2 noi: do EX != Act
            //                   Expected sai
            //   hoặc            tính toán sai = code chính sai = bug
