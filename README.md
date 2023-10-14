@@ -6,7 +6,7 @@
 ### You will find in this repo a Maven project: 
 * A jar project to demonstrate a Math library 
 * A Unit Test source code using JUnit Test framework
-* * Applying TDD- Test Driven Development and DDT - Data Driven Testing
+* Applying TDD- Test Driven Development and DDT - Data Driven Testing
 * Continuos Integration (CI) script using gitHub actions
 * ...
 
