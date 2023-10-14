@@ -6,12 +6,12 @@
 ### You will find in this repo a Maven project: 
 * A jar project to demonstrate a Math library 
 * A Unit Test source code using JUnit Test framework
+* * Applying TDD- Test Driven Development and DDT - Data Driven Testing
+* Continuos Integration (CI) script using gitHub actions
 * ...
 
 #### Connect me via thiennlse172858@gmail.com
 
 <<<<<<< HEAD
 #### Copyright &#169; 2023 luongthien
-=======
-#### Copyright &#169; 2023 luongthien
->>>>>>> 1d4e332705c458613ec666f15b42e8224f702d4d
+
