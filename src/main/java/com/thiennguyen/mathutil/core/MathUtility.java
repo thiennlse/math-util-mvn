@@ -19,7 +19,7 @@ public class MathUtility {
     //ham tinh giai thua n!=1.2.3.....n
     //n < 0 n > 20 ko tinh 21!
     public static long getFactorial(int n) {
-        long result = 1;
+        long result = 10;
         if (n < 0 || n > 20) {
             throw new IllegalArgumentException("Invaid n. n must between 1...20");
         }
